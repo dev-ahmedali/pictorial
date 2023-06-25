@@ -4,3 +4,22 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navData {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logout {
+    padding: 5px 10px;
+    background-color: #53c286;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
