@@ -6,15 +6,19 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <h1>Better design for your digital products</h1>
-        <p>
+        <h1 className={styles.title}>
+          Better design for your digital products
+        </h1>
+        <p className={styles.desc}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
           sequi atque ad aliquid fugiat quaerat!
         </p>
+        <button className={styles.button}>See Our Work</button>
       </div>
-      <button>See Our Work</button>
-      <div className={styles.item}></div>
-      <Image src={hero} alt="hero section" className={styles.heroImg} />
+
+      <div className={styles.item}>
+        <Image src={hero} alt="hero section" className={styles.heroImg} />
+      </div>
     </div>
   );
 }
