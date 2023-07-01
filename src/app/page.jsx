@@ -15,7 +15,6 @@ export default function Home() {
           sequi atque ad aliquid fugiat quaerat!
         </p>
         <Button url="/portfolio" text="See Our Work"/>
-        <button className={styles.button}></button>
       </div>
 
       <div className={styles.item}>
